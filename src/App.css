@@ -2,37 +2,111 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headMenu {
+  transition: all .2s ease-in-out;
+  height:5rem;
+}
+.headMenu.active{
+  background-color: #fff;
+  height:100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.subMenuOpen {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.3s ease-in-out;
+}
+.subMenuOpen.active {
+  color:#05141f;
+  background: #f1f1f1;
+}
+.tabActive {
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media screen and (min-width:768px){
+  .headMenu {background-color: transparent;}
+  .swiper-button-prev {padding-left:50px}
+  .swiper-button-next {padding-right:50px}
 }
 
-.App-link {
-  color: #61dafb;
+.swiper-button-prev, .swiper-button-next {
+  --swiper-theme-color : #fff; 
+}
+.swiper-button-prev {padding-left:15px }
+.swiper-button-next {padding-right:15px}
+.swiper-pagination-bullet-active {
+  --swiper-theme-color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.swiper-pagination-clickable .swiper-pagination-bullet{
+  background:  #fff;
 }
+
+.btn-primary {
+  background-color: #05141f; border: 1px solid #05141f; color: #fff; min-width: 150px; padding: 1pc 24px;
+  position: relative; text-align: center;z-index: 1;
+}
+.btn-primary:hover:after {
+  width: 100%; z-index: -1;
+}
+.btn-primary:after {
+  background-color: #37434b;
+  content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 0;z-index: -1;
+}
+.btn-primary, .btn-primary:after {
+  -webkit-transition: all .4s;  transition: all .4s;
+}
+
+.btn-basic {
+  background-color: #fff; border: 1px solid #d3d3d3; color: #424242; min-width: 150px; padding: 1pc 24px;
+  position: relative; text-align: center;z-index: 1;
+}
+.btn-basic:hover:after {
+  width: 100%; z-index: -1;
+}
+.btn-basic:after {
+  background-color: #ebebeb;
+  content: ""; height: 100%; left: 0; position: absolute; top: 0; width: 0;z-index: -1;
+}
+.btn-basic, .btn-basic:after {
+  -webkit-transition: all .4s;  transition: all .4s;
+}
+.btn-quick {
+  background-color: #f1f1f1; border: 1px solid #efefef; color: #707070; min-width: 100px; padding: 1pc 24px;
+  position: relative; text-align: center;z-index: 1;
+}
+.btn-quick:after {
+  background-color: #37434b; color:#fff;
+}
+.btn-quick:hover:after {
+  background-color: #37434b; color:#fff;
+}
+.btn-quick, .btn-quick:after {
+  -webkit-transition: all .4s;  transition: all .4s;
+}
+.btn-more {
+  display: block; visibility: hidden; width:100px;
+}
+.btn-more:after{ content: "자세히 보기"; visibility: visible;   color:#efefef}
+.btn-more:hover:after{ content: "자세히 보기"; visibility: visible; color:#efefef}
+
+/* .ani_text1{
+  animation-name: moving_title;
+  animation-duration: 2s;
+  animation-delay: 0s;
+}
+@keyframes moving_title{
+  0% { transform: translateX(50%);}
+  100% { transform: translateX(0%);}
+}
+
+.ani_text2{
+  animation-name: moving_title2;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+@keyframes moving_title2{
+  0% { transform: translateX(60%);}
+  100% { transform: translateX(0%);}
+} */
