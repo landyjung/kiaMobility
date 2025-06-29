@@ -4,7 +4,7 @@ const mainContent = [
         part:'기아 소식',
         title:'기아, ‘The 2026 K5’·‘The 2026 K8’ 출시',
         description:'기아가 브랜드 대표 세단 K5와 K8의 연식변경 모델 The 2026 K5와 The 2026 K8를 19일(목) 출시하고 본격적인 판매를 시작한다. The 2026 K5·The 2026 K8은 다양한 고객 선호 사양을 기본으로 탑재한 신규 트림 ‘베스트 셀렉션’을 운영하는 것이 특징이다.',
-        src:'/images/news_20250619_the_2026_k5_k8_pc.JPG'
+        src:`${process.env.PUBLIC_URL}/images/news_20250619_the_2026_k5_k8_pc.JPG`
     }
 ]
 const subContent = [

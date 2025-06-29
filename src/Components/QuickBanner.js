@@ -5,26 +5,26 @@ import { useState } from "react";
 const quickData = [
     {
         id:0,
-        src:'/images/icon_car-05.svg',
-        src2:'/images/icon_car-05-w.svg',
+        src:`${process.env.PUBLIC_URL}/images/icon_car-05.svg`,
+        src2:`${process.env.PUBLIC_URL}/images/icon_car-05-w.svg`,
         text: '견적내기',        
     },
     {
         id:1,
-        src:'/images/icon_steering.svg',
-        src2:'/images/icon_steering-w.svg',
+        src:`${process.env.PUBLIC_URL}/images/icon_steering.svg`,
+        src2:`${process.env.PUBLIC_URL}/images/icon_steering-w.svg`,
         text: '시승 신청',        
     },
     {
         id:2,
-        src:'/images/icon_location.svg',
-        src2:'/images/icon_location-w.svg',
+        src:`${process.env.PUBLIC_URL}/images/icon_location.svg`,
+        src2:`${process.env.PUBLIC_URL}/images/icon_location-w.svg`,
         text: '판매 네트워크',        
     },
     {
         id:3,
-        src:'/images/icon_gift-box.svg',
-        src2:'/images/icon_gift-box-w.svg',
+        src:`${process.env.PUBLIC_URL}/images/icon_gift-box.svg`,
+        src2:`${process.env.PUBLIC_URL}/images/icon_gift-box-w.svg`,
         text: '이 달의 구매 혜택',        
     },
 ]

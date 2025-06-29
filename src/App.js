@@ -58,22 +58,22 @@ const bestSearch = ['카니발', '스포티지', '모닝', '네비게이션', '�
 const quickData = [
     {
         id:0,
-        src:'/images/subnav_util_icon01.svg',
+        src:`${process.env.PUBLIC_URL}/images/subnav_util_icon01.svg`,
         text: '견적내기',        
     },
     {
         id:1,
-        src:'/images/subnav_util_icon02.svg',
+        src:`${process.env.PUBLIC_URL}/images/subnav_util_icon02.svg`,
         text: '시승 신청',        
     },
     {
         id:2,
-        src:'/images/subnav_util_icon04.svg',
+        src:`${process.env.PUBLIC_URL}/images/subnav_util_icon04.svg`,
         text: '판매 네트워크',        
     },
     {
         id:3,
-        src:'/images/subnav_util_icon05.svg',
+        src:`${process.env.PUBLIC_URL}/images/subnav_util_icon05.svg`,
         text: '이 달의 구매 혜택',        
     },
 ]
@@ -208,7 +208,7 @@ return (
                 }
                 
                 <div className='absolute right-0 top-6 flex gap-6 md:gap-8 text-md pr-4 md:pr-12 md:top-6'>
-                    <a className='font-semibold text-white hidden md:block' onClick={()=> setPbvOpen(!pbvOpen)}>PBV</a>
+                    <a className='font-semibold text-white hidden md:block cursor-pointer' onClick={()=> setPbvOpen(!pbvOpen)}>PBV</a>
                     <Globe className={`h-5 w-5 text-gray-800 md:hidden md:text-white ${isOpen? 'text-gray-800':'text-white'}`} />
                     <a href="#" className='font-semibold text-white items-center relative hidden md:flex gap-2' onClick={()=> setLangOpen(!langOpen)}>
                         KR {langOpen ? (<ChevronUp size={20} />) : (<ChevronDown size={20} />)}</a>

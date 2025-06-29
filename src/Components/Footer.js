@@ -7,7 +7,7 @@ const privateMenu = ['개인정보 처리방침', '프라이버시 센터','이�
 const webAward = [
     {
         id:0,
-        src:'/images/awards_ks-sqi.png',
+        src:`${process.env.PUBLIC_URL}/images/awards_ks-sqi.png`,
         text: {
             text1:'25년 국가고객만족도(NCSI)',
             text2:'중형승용(6년 연속), 컴팩트RV(3년 연속)',
@@ -16,7 +16,7 @@ const webAward = [
     },
     {
         id:1,
-        src:'/images/awards_ksqi-callcenter.png',
+        src:`${process.env.PUBLIC_URL}/images/awards_ksqi-callcenter.png`,
         text:{
             text1:'25년 한국 산업의 서비스 품질지수 ',
             text2:'우수 콜센터 (22년 연속) 및',
@@ -25,7 +25,7 @@ const webAward = [
     },
     {
         id:2,
-        src:'/images/awards-cnba.png',
+        src:`${process.env.PUBLIC_URL}/images/awards-cnba.png`,
         text:{
             text1:'24년 한국산업의 서비스 품질지수',
             text2:'자동차 A/S부문 1위 (11년 연속)',
@@ -33,7 +33,7 @@ const webAward = [
     },
     {
         id:3,
-        src:'/images/awards_ksqi-car.png',
+        src:`${process.env.PUBLIC_URL}/images/awards_ksqi-car.png`,
         text:{
             text1:'25년 대한민국 국가브랜드 대상',
             text2:'자동차 멤버십 부문 1위 (14년 연속)'
@@ -41,7 +41,7 @@ const webAward = [
     },
     {
         id:4,
-        src:'/images/awards_nsci.png',
+        src:`${process.env.PUBLIC_URL}/images/awards_nsci.png`,
         text:{
             text1:'24년 한국서비스품질지수(KS-SQI)',
             text2:'자동차 판매서비스 부문 1위 (5년 연속)'
@@ -49,7 +49,7 @@ const webAward = [
     },
     {
         id:5,
-        src:'/images/awards_wa.png',
+        src:`${process.env.PUBLIC_URL}/images/awards_wa.png`,
         text:{text1:'웹 접근성 품질인증'}
     },
 
@@ -63,7 +63,7 @@ function Footer() {
   return (
     <div className="text-slate-400">
         <div className="bg-[#05141f] w-full px-8 md:px-16 pt-12">
-            <h2 className="mb-12"><img src="/images/logo.svg" alt="logo" className="invert w-[100px]" /></h2>
+            <h2 className="mb-12"><img src={`${process.env.PUBLIC_URL}/images/logo.svg`} alt="logo" className="invert w-[100px]" /></h2>
             <div  className="flex justify-between">
                 <div className="flex">
                     <ul className="w-96 flex-none text-white font-bold text-left flex flex-col gap-8">
@@ -83,11 +83,11 @@ function Footer() {
                 </div>
                 <div>
                     <ul className="md:flex gap-4 hidden">
-                        <li><img src="/images/ic_kia_members.png" alt="members" /></li>
-                        <li><img src="/images/ic_post.png" alt="post" /></li>
-                        <li><img src="/images/ic_facebook.svg" alt="facebook" /></li>
-                        <li><img src="/images/ic_youtube.svg" alt="youtube" /></li>
-                        <li><img src="/images/ic_instagram.svg" alt="instagram" /></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/images/ic_kia_members.png`} alt="members" /></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/images/ic_post.png`} alt="post" /></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/images/ic_facebook.svg`} alt="facebook" /></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/images/ic_youtube.svg`} alt="youtube" /></li>
+                        <li><img src={`${process.env.PUBLIC_URL}/images/ic_instagram.svg`} alt="instagram" /></li>
                     </ul>
                 </div>
             </div>

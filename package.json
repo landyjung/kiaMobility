@@ -1,5 +1,6 @@
 {
-  "name": "basic",
+  "name": "kia",
+  "homepage":"https://landyjung.github.io/kiaMobility/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

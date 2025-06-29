@@ -8,35 +8,35 @@ import 'swiper/css/navigation';
 
 const carImages = [
   {
-    src:'/images/kv_rental_pc_240527.jpg',
+    src:`${process.env.PUBLIC_URL}/images/kv_rental_pc_240527.jpg`,
     title:'기아렌터카',
     subtitle:'스마트한 카 라이프의 시작! 기아렌터카',
     btn1:'렌터카 견적 내기',
     btn2:'바로가기',
   },
   {
-    src:'/images/kv_the_kia_k5_k8_pc.jpg',
+    src:`${process.env.PUBLIC_URL}/images/kv_the_kia_k5_k8_pc.jpg`,
     title:'The 2026 K5',
     subtitle:'Best Selection 트림 신규 추가',
     btn1:'자세히보기',
     btn2:'견적내기',
   },
   {
-    src:'/images/kv_the-kia-pv5_pc.jpg',
+    src:`${process.env.PUBLIC_URL}/images/kv_the-kia-pv5_pc.jpg`,
     title:'The Kia PV5',
     subtitle:'Play Your Vision',
     btn1:'자세히보기',
     btn2:'견적내기',
   },
   {
-    src:'/images/kv_the_kia_pv5_cargo_pc.jpg',
+    src:`${process.env.PUBLIC_URL}/images/kv_the_kia_pv5_cargo_pc.jpg`,
     title:'The Kia PV5 카고',
     subtitle:'Play Your Vision',
     btn1:'자세히보기',
     btn2:'견적내기',
   },
   {
-    src:'/images/kv_the-kia-ev4_0305_pc.jpg',
+    src:`${process.env.PUBLIC_URL}/images/kv_the-kia-ev4_0305_pc.jpg`,
     title:'The Kia EV4',
     subtitle:'Play Your Vision',
     btn1:'자세히보기',
