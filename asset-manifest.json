@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kiaMobility/static/css/main.4aa40621.css",
-    "main.js": "/kiaMobility/static/js/main.e4bd0dee.js",
+    "main.js": "/kiaMobility/static/js/main.405922f6.js",
     "static/js/453.d88b7427.chunk.js": "/kiaMobility/static/js/453.d88b7427.chunk.js",
     "index.html": "/kiaMobility/index.html",
     "main.4aa40621.css.map": "/kiaMobility/static/css/main.4aa40621.css.map",
-    "main.e4bd0dee.js.map": "/kiaMobility/static/js/main.e4bd0dee.js.map",
+    "main.405922f6.js.map": "/kiaMobility/static/js/main.405922f6.js.map",
     "453.d88b7427.chunk.js.map": "/kiaMobility/static/js/453.d88b7427.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4aa40621.css",
-    "static/js/main.e4bd0dee.js"
+    "static/js/main.405922f6.js"
   ]
 }
