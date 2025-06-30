@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kiaMobility/static/css/main.bb36dce9.css",
-    "main.js": "/kiaMobility/static/js/main.db5927af.js",
+    "main.css": "/kiaMobility/static/css/main.da89001d.css",
+    "main.js": "/kiaMobility/static/js/main.a843a833.js",
     "static/js/453.d88b7427.chunk.js": "/kiaMobility/static/js/453.d88b7427.chunk.js",
     "static/media/kv_the-kia-ev4_0305_pc.JPG": "/kiaMobility/static/media/kv_the-kia-ev4_0305_pc.51644e580ac1a3199693.JPG",
     "static/media/kv_the_kia_k5_k8_pc.JPG": "/kiaMobility/static/media/kv_the_kia_k5_k8_pc.2adcb7477b005558f425.JPG",
@@ -9,12 +9,12 @@
     "static/media/kv_the-kia-pv5_pc.JPG": "/kiaMobility/static/media/kv_the-kia-pv5_pc.fec868701a3781e55704.JPG",
     "static/media/kv_rental_pc_240527.JPG": "/kiaMobility/static/media/kv_rental_pc_240527.3c85698537d508c8bc13.JPG",
     "index.html": "/kiaMobility/index.html",
-    "main.bb36dce9.css.map": "/kiaMobility/static/css/main.bb36dce9.css.map",
-    "main.db5927af.js.map": "/kiaMobility/static/js/main.db5927af.js.map",
+    "main.da89001d.css.map": "/kiaMobility/static/css/main.da89001d.css.map",
+    "main.a843a833.js.map": "/kiaMobility/static/js/main.a843a833.js.map",
     "453.d88b7427.chunk.js.map": "/kiaMobility/static/js/453.d88b7427.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb36dce9.css",
-    "static/js/main.db5927af.js"
+    "static/css/main.da89001d.css",
+    "static/js/main.a843a833.js"
   ]
 }
